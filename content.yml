@@ -15,7 +15,9 @@ test:
       - content_type: text
         title: No
         payload: QR_NO
-        image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Limes.jpg/339px-Limes.jpg
+        web-style:
+          background: black
+          color: red
 
 
 
