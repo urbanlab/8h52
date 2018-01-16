@@ -7,7 +7,7 @@
 module.exports = function(bp) {
   // Listens for a first message (this is a Regex)
   bp.hear("Go", (event, next) => {
-    event.reply('#Test')
+    event.reply('#Init')
   })
 
   // You can also pass a matcher object to better filter events
