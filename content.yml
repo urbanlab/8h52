@@ -6,6 +6,20 @@ Init: # Premier bloc lu par le bot
       - On peut passer un moment ensemble ?
     typing: true
 
+test:
+  - text: Hello, world!
+    quick_replies:
+      - content_type: text
+        title: Yes
+        payload: QR_YES
+      - content_type: text
+        title: No
+        payload: QR_NO
+        image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Limes.jpg/339px-Limes.jpg
+      - content_type: location
+
+
+
 #  - text: This is just a regular Hello World, I don't do anything ;)
 #    typing: 2s
 #  - text: Make sure to check out the 'index.js' file to see how I work

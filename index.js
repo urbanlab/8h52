@@ -10,6 +10,10 @@ module.exports = function(bp) {
     event.reply('#Init')
   })
 
+  bp.hear(/test/i, (event, next) => {
+    event.reply('#test')
+  })
+
   // You can also pass a matcher object to better filter events
   bp.hear({
     type: /message|text/i,
