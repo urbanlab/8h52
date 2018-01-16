@@ -6,7 +6,7 @@ botConvoDescription: ''
 
 # POPUP CONVERSATION SETTINGS
 welcomeMsgEnable: true
-welcomeMsgDelay: 1000
+welcomeMsgDelay: 1
 welcomeMsgText: | ## Welcome message that shows at on pop-up (multi-lines)
   Hey guys!
   Curious about our offer?

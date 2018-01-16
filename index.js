@@ -6,7 +6,7 @@
 
 module.exports = function(bp) {
   // Listens for a first message (this is a Regex)
-  bp.hear("Go", (event, next) => {
+  bp.hear(/go/i, (event, next) => {
     event.reply('#Init')
   })
 
