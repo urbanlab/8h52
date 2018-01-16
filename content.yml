@@ -1,5 +1,6 @@
 Init: # Premier bloc lu par le bot
-  - text: Hello, je suis le bus de 8h52
+  - type: image
+    text: Hello, je suis le bus de 8h52
     web-style:
       background: black
       color: red
