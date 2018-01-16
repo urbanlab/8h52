@@ -5,6 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "botpress": "1.x",
+    "botpress-platform-webchat": "^0.4.5",
     "botpress-web": "1.x",
     "botpress-webhook": "^1.0.1"
   },
