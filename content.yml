@@ -3,6 +3,8 @@ Init: # Premier bloc lu par le bot
     web-style:
       background: black
       color: red
+    typing: 3s
+  - image: "http://media.rtl.fr/cache/rQwYMu3pakcZ6yEbvK84CA/880v587-0/online/image/2017/0630/7789172554_la-voie-lactee-au-dessus-de-siding-spring-en-australie.jpg"
     typing: 2s
   - text:
       - Reveil difficile ce matin. Et toi, bien dormi ?
