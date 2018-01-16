@@ -1,5 +1,8 @@
 Init: # Premier bloc lu par le bot
   - text: Hello, je suis le bus de 8h52
+    web-style:
+      background: black
+      color: red
     typing: 2s
   - text:
       - Reveil difficile ce matin. Et toi, bien dormi ?
@@ -15,9 +18,6 @@ test:
       - content_type: text
         title: No
         payload: QR_NO
-        web-style:
-          background: black
-          color: red
 
 
 
